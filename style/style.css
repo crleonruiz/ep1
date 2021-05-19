@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+
+
+body{
+    font-family: 'jost' , sans-serif;
+}
+
+/*------INICIO DEL NAV BAR------*/
+.navbar-collapse {
+    flex-basis: 0%;
+    flex-grow: 0;
+    align-items: center;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 1200px;
+    height: 72px;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.dropdown-toggle::after {
+    /*display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+    */
+    height: 6px;
+    width: 6px;
+
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: transparent #70798b #70798b transparent;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: border 0.3s;
+    transition: border 0.3s;
+}
+ 
+
+/*----FIN DEL NAVBAR-----*/
+
+.s-subtitle-top {
+    padding-bottom: 12px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #a6a6a6;
+    font-weight: 500;
+}
+
+.textcolor {
+    color: #0067da !important;
+}
+
+/*-----TRES COLUMNAS------*/
+
+.infobox {
+    background: #FFFFFF;
+    border-bottom: 2px solid #fff;
+    text-align: center;
+    box-shadow: 0 4px 4px rgb(221 215 215 / 12%);
+    padding-top: 45px;
+    padding-bottom: 45px;
+    transition: 0.3s;
+}
+
+.padded{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+/*-------FOOTER--------*/
+
+#main-footer{
+    background-color: #000000;
+    color: #ffffff;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
